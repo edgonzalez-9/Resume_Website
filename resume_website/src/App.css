@@ -6,12 +6,17 @@ h1 {
   text-align: center;
 }
 
+
 .header {
   background-color: gray;
   padding: 25px, 25px, 25px, 25px;
+  border: 2px solid red;
+  border-radius: 5px;
 }
 
 .header div {
   text-align: center;
   justify-content: space-between;
+  display: inline-flex;
+  flex-direction: row;
 }

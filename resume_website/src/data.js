@@ -48,18 +48,34 @@ let resume = {
     ],
     workExperience: [
         {
+            employer: 'Gamestop',
+            position: 'Store Manager',
+            bulletPoints: [
+                'Drove sales through positive customer interactions and focused on key operational areas.',
+                'Capable of managing the sales floor during holidays and console launches.'
+            ]
 
         },
         {
+            employer: 'AMC Theaters',
+            position: 'Manager',
+            bulletPoints: [
+                'Worked across multiple departments such as human resources, supply management, and customer service.',
+                'Obtained extensive experience with acquiring and training talent.'
+            ]
 
         }
     ],
     education: [
         {
+            school: 'Flatiron School',
+            focus: 'Full Stack Web Development, Ruby on Rails and JavaScript programming.'
 
         },
         {
-            
+            school: 'University of Houston',
+            focus: 'Courses in Computer Engineering'
+
         }
     ]
 }
