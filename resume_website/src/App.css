@@ -1,5 +1,5 @@
 body {
-  background-color: lightskyblue;
+  background-color: white;
 }
 
 h1 {
@@ -7,5 +7,11 @@ h1 {
 }
 
 .header {
-  background-color: lightcoral;
+  background-color: gray;
+  padding: 25px, 25px, 25px, 25px;
+}
+
+.header div {
+  text-align: center;
+  justify-content: space-between;
 }

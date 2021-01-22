@@ -1,12 +1,16 @@
 import './App.css';
-
-let email = 'edgonzalezhernandez@gmail.com'
+import Candidate from './data.js'
 
 function App(){
   return(
+    <div>
     <div className="header">
-      <h1>Eduardo Gonzalez Hernandez</h1>
-      <div>{email}</div>
+      <h1>{Candidate.name}</h1>
+      <div>
+        {Candidate.socialLinks.map(link => <div>{link}</div>)}
+      </div>
+    </div>
+      {Candidate.languages.map(language => <div>{language}</div>)}
     </div>
   )
 }
