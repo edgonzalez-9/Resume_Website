@@ -3,7 +3,12 @@ import Display from '../Components/Display';
 
 function Projects(props){
     return(
-        <div>{props.projects.map(project => <Display project={project}/>)}</div>
+        <div>
+            <h2>Projects</h2>
+            <div className='project-container'>
+                {props.projects.map(project => <Display project={project}/>)}
+            </div>
+        </div>
     )
 }
 

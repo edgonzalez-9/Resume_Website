@@ -4,10 +4,10 @@ function Display(props){
 
     let project = props.project
     return(
-        <div>
+        <div className='project'>
             <h1>{project.name}</h1>
-            <h2>{project.description}</h2>
-            <div>{project.bulletPoints.map(point => <div>{point}</div>)}</div>
+            <h3>{project.description}</h3>
+            {project.bulletPoints.map(point => <ul>{point}</ul>)}
         </div>
     )
 }
