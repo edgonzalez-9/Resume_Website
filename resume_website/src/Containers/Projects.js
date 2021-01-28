@@ -6,7 +6,7 @@ function Projects(props){
         <div>
             <h2>Projects</h2>
             <div className='project-container'>
-                {props.projects.map(project => <Display project={project}/>)}
+                {props.projects.map(project => <Display project={project} key={project.name}/>)}
             </div>
         </div>
     )

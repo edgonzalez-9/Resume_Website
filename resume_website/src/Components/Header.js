@@ -5,9 +5,9 @@ function Header(props){
         <div>
             <h1>{props.candidate.name}</h1>
             <div className='container'>
-                <div className='item'>Technical Experience</div>
-                <div className='item'>Projects</div>
-                <div className='item'>Contact Information</div>
+                <button name='skills' onClick={(e) => props.handleClick(e.target.name)}>Technical Skills</button>
+                <button name='projects' onClick={(e) => props.handleClick(e.target.name)}>Projects</button>
+                <button name='contact' onClick={(e) => props.handleClick(e.target.name)}>Contact Information</button>
             </div>
         </div>
     )

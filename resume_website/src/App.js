@@ -1,17 +1,11 @@
 import './App.css';
-import ContactInformation from './Components/ContactInformation';
-import Header from './Components/Header'
-import TechnicalSkills from './Components/TechnicalSkills';
-import Projects from './Containers/Projects';
-import Candidate from './data.js'
+import React from 'react';
+import Webpage from './Components/Webpage';
 
 function App(){
   return(
     <div>
-      <Header candidate={Candidate}/>
-      <TechnicalSkills candidate={Candidate}/>
-      <Projects projects={Candidate.projects}/>
-      <ContactInformation candidate={Candidate}/>
+      <Webpage/>
     </div>
   )
 }
