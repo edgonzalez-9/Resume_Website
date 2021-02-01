@@ -3,12 +3,31 @@ let resume = {
     location: 'Houston, TX',
     phoneNumber: '832-235-3042',
     socialLinks: [
-        'edgonzalezhernandez9@gmail.com', 
-        'https://github.com/edgonzalez-9', 
-        'https://edgonzalezhernandez9.medium.com/'
+        {
+            image: 'https://1000logos.net/wp-content/uploads/2018/05/Gmail-logo.png',
+            link: 'edgonzalezhernandez9@gmail.com'
+        },
+        {
+            image: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png',
+            link: 'https://github.com/edgonzalez-9', 
+        },
+        {
+            image: 'https://miro.medium.com/max/3416/1*5NKHQDjC1cUC441HTejxuQ.png',
+            link: 'https://edgonzalezhernandez9.medium.com/'
+        }
     ],
-    description: 'Full-stack developer experienced in using Ruby and React for backend and frontend development respectively. Previous job experience outside of software development focused on management and human relations, often in charge of scheduling and hiring, as well as customer satisfaction.',
-    languages: ['Ruby', 'Javascript', 'React'],
+    description: 'Hello, my name is Ed Gonzalez Hernandez and I am a recent bootcamp graduate. I am full-stack developer, experienced in using Ruby, Ruby on Rails, Javascript, and React. my previous job experience focused on retail management and human relations, where I was often in charge of scheduling, hiring, and customer satisfaction.',
+    languages: [
+        {name: 'Ruby',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1024px-Ruby_logo.svg.png'
+        },
+        {name: 'Javascript',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/480px-JavaScript-logo.png'
+        },
+        {name: 'React',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png'
+        }
+    ],
     projects:[
         {
             name: `Ed's Pop Emporium`,

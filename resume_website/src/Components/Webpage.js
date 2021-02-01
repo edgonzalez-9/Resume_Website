@@ -15,19 +15,9 @@ class Webpage extends React.Component {
     };
 
     handleClick = (e) => {
-        if (e === 'skills'){
-            this.setState({
-                nowShowing: 'skills'
-            });
-        } else if (e === 'projects'){
-            this.setState({
-                nowShowing: 'projects'
-            });
-        } else if (e === 'contact'){
-            this.setState({
-                nowShowing: 'contact'
-            })
-        }
+        this.setState({
+            nowShowing: `${e}`
+        })
     }
 
     render(){
