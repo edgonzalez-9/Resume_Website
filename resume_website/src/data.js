@@ -13,10 +13,10 @@ let resume = {
         },
         {
             image: 'https://miro.medium.com/max/3416/1*5NKHQDjC1cUC441HTejxuQ.png',
-            link: 'https://edgonzalezhernandez9.medium.com/'
+            link: 'https://edgonzalezhernandez9.medium.com'
         }
     ],
-    description: 'Hello, my name is Ed Gonzalez Hernandez and I am a recent bootcamp graduate. I am full-stack developer, experienced in using Ruby, Ruby on Rails, Javascript, and React. my previous job experience focused on retail management and human relations, where I was often in charge of scheduling, hiring, and customer satisfaction.',
+    description: `This website is the first project I tackled after graduating from Flatiron. It's a bit rough and unpolished but at the moment as a programmer so am I. My goal is to continue to improve and revist this project to showcase my personal growth. Before switching careers I worked in retail management, human resources, and sales. Solving issues in a way that satisfied both the customer and my boss is a specialty of mine, one that I hope to take full advantge of as a developer.`,
     languages: [
         {name: 'Ruby',
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1024px-Ruby_logo.svg.png'
@@ -32,7 +32,8 @@ let resume = {
         {
             name: `Ed's Pop Emporium`,
             github: '',
-            demo: '',
+            demo: 'https://www.youtube.com/watch?v=H8EOC-bc4HI&t=18s',
+            image: 'https://www.funko.com/craftmin/users/pop-yourself-logo-089274fc4402d61e99429deb208b7f33.png',
             description: 'An app that allows users to create a digital record of their Funko Pop collection',
             bulletPoints: [
                 'Used a Rails backend to store records about Users, Pops, and Pop collections',
@@ -44,7 +45,8 @@ let resume = {
         {
             name: `Block Buster`,
             github: '',
-            demo: '',
+            demo: 'https://www.youtube.com/watch?v=4WCFRFVnhj4&t=91s',
+            image: 'https://cdn.mos.cms.futurecdn.net/FJY29u96GopjnjRhWi2N6i-1200-80.jpg',
             description: `One page Tetris-clone that stores player's high scores`,
             bulletPoints: [
                 'Built a tetris app with access to all six tetrominoes.',
@@ -56,7 +58,8 @@ let resume = {
         {
             name: `Bike Houston`,
             github: '',
-            demo: '',
+            demo: 'https://www.youtube.com/watch?v=FUxliPJyewc&t=230s',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/6/62/Downtown_Houston%2C_TX_Skyline_-_2018.jpg',
             description: 'Social app for bike riders to connect and meet up in Houston.',
             bulletPoints: [
                 'Used Rails to create a relationship between bike riders and trails.',

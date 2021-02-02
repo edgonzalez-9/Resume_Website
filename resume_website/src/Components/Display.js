@@ -17,18 +17,5 @@ class Display extends React.Component {
         )
     }
 }
-// function Display(props){
-
-//     let project = props.project
-//     return(
-//         <div className='project-card'>
-//             <h1>{project.name}</h1>
-//             <h3>{project.description}</h3>
-//             <ul>
-//             {project.bulletPoints.map(point => <li>{point}</li>)}
-//             </ul>
-//         </div>
-//     )
-// }
 
 export default Display;

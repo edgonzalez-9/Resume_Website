@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header(props){
     return(
-        <div>
+        <div className='header'>
             <h1>{props.candidate.name}</h1>
             <div className='container'>
                 <button name='skills' onClick={(e) => props.handleClick(e.target.name)}>Technical Skills</button>
