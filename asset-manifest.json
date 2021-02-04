@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/resume-website/static/css/main.693cd6b8.chunk.css",
+    "main.js": "/resume-website/static/js/main.7211148a.chunk.js",
+    "main.js.map": "/resume-website/static/js/main.7211148a.chunk.js.map",
+    "runtime-main.js": "/resume-website/static/js/runtime-main.83c3ba2c.js",
+    "runtime-main.js.map": "/resume-website/static/js/runtime-main.83c3ba2c.js.map",
+    "static/js/2.e58a701f.chunk.js": "/resume-website/static/js/2.e58a701f.chunk.js",
+    "static/js/2.e58a701f.chunk.js.map": "/resume-website/static/js/2.e58a701f.chunk.js.map",
+    "static/js/3.a43d65db.chunk.js": "/resume-website/static/js/3.a43d65db.chunk.js",
+    "static/js/3.a43d65db.chunk.js.map": "/resume-website/static/js/3.a43d65db.chunk.js.map",
+    "index.html": "/resume-website/index.html",
+    "static/css/main.693cd6b8.chunk.css.map": "/resume-website/static/css/main.693cd6b8.chunk.css.map",
+    "static/js/2.e58a701f.chunk.js.LICENSE.txt": "/resume-website/static/js/2.e58a701f.chunk.js.LICENSE.txt",
+    "static/media/Bike.a60ed0b0.png": "/resume-website/static/media/Bike.a60ed0b0.png",
+    "static/media/BlockBuster.6ef342c5.png": "/resume-website/static/media/BlockBuster.6ef342c5.png",
+    "static/media/Pop.0b860a4a.png": "/resume-website/static/media/Pop.0b860a4a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83c3ba2c.js",
+    "static/js/2.e58a701f.chunk.js",
+    "static/css/main.693cd6b8.chunk.css",
+    "static/js/main.7211148a.chunk.js"
+  ]
+}
