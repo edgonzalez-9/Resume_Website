@@ -1,3 +1,7 @@
+import Pop from './Images/Pop.png'
+import Block from './Images/BlockBuster.png'
+import Bike from './Images/Bike.png'
+
 let resume = {
     name: 'Ed Gonzalez Hernandez', 
     location: 'Houston, TX',
@@ -33,7 +37,7 @@ let resume = {
             name: `Ed's Pop Emporium`,
             github: '',
             demo: 'https://www.youtube.com/watch?v=H8EOC-bc4HI&t=18s',
-            image: 'https://www.funko.com/craftmin/users/pop-yourself-logo-089274fc4402d61e99429deb208b7f33.png',
+            image: Pop,
             description: 'An app that allows users to create a digital record of their Funko Pop collection',
             bulletPoints: [
                 'Used a Rails backend to store records about Users, Pops, and Pop collections',
@@ -46,7 +50,7 @@ let resume = {
             name: `Block Buster`,
             github: '',
             demo: 'https://www.youtube.com/watch?v=4WCFRFVnhj4&t=91s',
-            image: 'https://cdn.mos.cms.futurecdn.net/FJY29u96GopjnjRhWi2N6i-1200-80.jpg',
+            image: Block,
             description: `One page Tetris-clone that stores player's high scores`,
             bulletPoints: [
                 'Built a tetris app with access to all six tetrominoes.',
@@ -59,7 +63,7 @@ let resume = {
             name: `Bike Houston`,
             github: '',
             demo: 'https://www.youtube.com/watch?v=FUxliPJyewc&t=230s',
-            image: 'https://upload.wikimedia.org/wikipedia/commons/6/62/Downtown_Houston%2C_TX_Skyline_-_2018.jpg',
+            image: Bike,
             description: 'Social app for bike riders to connect and meet up in Houston.',
             bulletPoints: [
                 'Used Rails to create a relationship between bike riders and trails.',

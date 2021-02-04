@@ -4,9 +4,11 @@ import LanguageCard from './LangugageCard';
 function TechnicalSkills(props){
     return(
         <div>
-            <h2>Technical Experience</h2>
+            <h3>Technical Experience</h3>
             <div className='project'>
-                {props.candidate.description}
+                <div className='project-div'>
+                    {props.candidate.description}
+                </div>
             </div>
             <h3>Programming Languages</h3>
             <div className='l-container'>

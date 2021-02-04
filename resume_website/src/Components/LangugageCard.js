@@ -5,7 +5,7 @@ function LanguageCard(props){
     return(
         <div className='language-card'>
             <div className='language-container'>
-                {language.name}
+                <h3>{language.name}</h3>
                 <img src={language.logo} alt='' />
             </div>
         </div>

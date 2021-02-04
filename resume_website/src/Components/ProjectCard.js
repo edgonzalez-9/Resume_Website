@@ -18,10 +18,12 @@ class ProjectCard extends React.Component{
 
     render(){
         return(
-            <div className='project-card'>
+            <div >
                 {this.state.isCardFront ? 
-                <Front project={this.props.project} handleClick={this.handleClick}/>
-                :   <Back project={this.props.project} handleClick={this.handleClick}/>}
+                    <Front project={this.props.project} handleClick={this.handleClick}/>
+                    :   
+                    <Back project={this.props.project} handleClick={this.handleClick}/>
+                }
             </div>
         )
     }

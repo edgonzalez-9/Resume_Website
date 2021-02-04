@@ -12,7 +12,7 @@ class Projects extends React.Component {
 
     render(){
         return(
-            <div>
+            <div className='projects-container'>
                 <h2>Projects</h2>
                 <div className='project-container'>
                     {this.props.projects.map(project => <Display project={project} key={project.name}/>)}
